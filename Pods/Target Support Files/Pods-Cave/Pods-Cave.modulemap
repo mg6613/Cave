@@ -1,0 +1,6 @@
+framework module Pods_Cave {
+  umbrella header "Pods-Cave-umbrella.h"
+
+  export *
+  module * { export * }
+}
