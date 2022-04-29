@@ -12,6 +12,12 @@
 		3C1DBFC72817BD9B00416DA3 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1DBFC62817BD9B00416DA3 /* DatabaseManager.swift */; };
 		3C1DBFC92817BE3200416DA3 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1DBFC82817BE3200416DA3 /* AuthManager.swift */; };
 		3C1DBFCB2817BE8100416DA3 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1DBFCA2817BE8100416DA3 /* StorageManager.swift */; };
+		3C1DBFCD2818083600416DA3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1DBFCC2818083600416DA3 /* Extensions.swift */; };
+		3C1DBFD32818EEE800416DA3 /* whyb_m_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1DBFCE2818EEE700416DA3 /* whyb_m_logo.png */; };
+		3C1DBFD42818EEE800416DA3 /* whyn_s_logo02.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1DBFCF2818EEE700416DA3 /* whyn_s_logo02.png */; };
+		3C1DBFD52818EEE800416DA3 /* whyn_wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1DBFD02818EEE700416DA3 /* whyn_wine.png */; };
+		3C1DBFD62818EEE800416DA3 /* whyn_s_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1DBFD12818EEE700416DA3 /* whyn_s_logo.png */; };
+		3C1DBFD72818EEE800416DA3 /* whyn_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1DBFD22818EEE800416DA3 /* whyn_logo.png */; };
 		3C2AD3F027BF6A99001DC5B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AD3EF27BF6A99001DC5B8 /* AppDelegate.swift */; };
 		3C2AD3F227BF6A99001DC5B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AD3F127BF6A99001DC5B8 /* SceneDelegate.swift */; };
 		3C2AD3F427BF6A99001DC5B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AD3F327BF6A99001DC5B8 /* HomeViewController.swift */; };
@@ -39,6 +45,12 @@
 		3C1DBFC62817BD9B00416DA3 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		3C1DBFC82817BE3200416DA3 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		3C1DBFCA2817BE8100416DA3 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		3C1DBFCC2818083600416DA3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3C1DBFCE2818EEE700416DA3 /* whyb_m_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whyb_m_logo.png; sourceTree = "<group>"; };
+		3C1DBFCF2818EEE700416DA3 /* whyn_s_logo02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whyn_s_logo02.png; sourceTree = "<group>"; };
+		3C1DBFD02818EEE700416DA3 /* whyn_wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whyn_wine.png; sourceTree = "<group>"; };
+		3C1DBFD12818EEE700416DA3 /* whyn_s_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whyn_s_logo.png; sourceTree = "<group>"; };
+		3C1DBFD22818EEE800416DA3 /* whyn_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whyn_logo.png; sourceTree = "<group>"; };
 		3C2AD3EC27BF6A99001DC5B8 /* Cave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2AD3EF27BF6A99001DC5B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C2AD3F127BF6A99001DC5B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,9 +148,12 @@
 			isa = PBXGroup;
 			children = (
 				3C2AD3F827BF6A9A001DC5B8 /* Assets.xcassets */,
+				3C1DBFCE2818EEE700416DA3 /* whyb_m_logo.png */,
+				3C1DBFD22818EEE800416DA3 /* whyn_logo.png */,
+				3C1DBFD12818EEE700416DA3 /* whyn_s_logo.png */,
+				3C1DBFCF2818EEE700416DA3 /* whyn_s_logo02.png */,
+				3C1DBFD02818EEE700416DA3 /* whyn_wine.png */,
 				3C2AD40727BF6B69001DC5B8 /* Storyboards */,
-				3C2AD3F527BF6A99001DC5B8 /* Main.storyboard */,
-				3C2AD3FA27BF6A9A001DC5B8 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,6 +174,7 @@
 				3C1DBFC62817BD9B00416DA3 /* DatabaseManager.swift */,
 				3C1DBFC82817BE3200416DA3 /* AuthManager.swift */,
 				3C1DBFCA2817BE8100416DA3 /* StorageManager.swift */,
+				3C1DBFCC2818083600416DA3 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -166,6 +182,8 @@
 		3C2AD40727BF6B69001DC5B8 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				3C2AD3F527BF6A99001DC5B8 /* Main.storyboard */,
+				3C2AD3FA27BF6A9A001DC5B8 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -277,9 +295,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1DBFD72818EEE800416DA3 /* whyn_logo.png in Resources */,
 				3C2AD3FC27BF6A9A001DC5B8 /* LaunchScreen.storyboard in Resources */,
 				3C1DBFC42817AF8200416DA3 /* GoogleService-Info.plist in Resources */,
+				3C1DBFD62818EEE800416DA3 /* whyn_s_logo.png in Resources */,
 				3C2AD3F927BF6A9A001DC5B8 /* Assets.xcassets in Resources */,
+				3C1DBFD32818EEE800416DA3 /* whyb_m_logo.png in Resources */,
+				3C1DBFD42818EEE800416DA3 /* whyn_s_logo02.png in Resources */,
+				3C1DBFD52818EEE800416DA3 /* whyn_wine.png in Resources */,
 				3C2AD3F727BF6A99001DC5B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +369,7 @@
 				3C2AD3F427BF6A99001DC5B8 /* HomeViewController.swift in Sources */,
 				3C2AD42727BF73B0001DC5B8 /* SearchResultViewController.swift in Sources */,
 				3C2AD41927BF72D3001DC5B8 /* LoginViewController.swift in Sources */,
+				3C1DBFCD2818083600416DA3 /* Extensions.swift in Sources */,
 				3C2AD42527BF739B001DC5B8 /* SearchViewController.swift in Sources */,
 				3C2AD41327BF6E6B001DC5B8 /* ProfileViewController.swift in Sources */,
 				3C1DBFC92817BE3200416DA3 /* AuthManager.swift in Sources */,
@@ -508,6 +532,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -538,6 +563,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
